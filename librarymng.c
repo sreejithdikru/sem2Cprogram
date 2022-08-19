@@ -1,7 +1,5 @@
 /*
 Program: Library Management
-Author: CppBuzz
-Date: 17th Nov 2017
 */
 
 #include<stdio.h>
