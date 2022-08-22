@@ -17,4 +17,12 @@ while(strlen(gets(s))>0)
 fputs(s,fp);fputs("\n",fp);
 }
 fclose(fp);
+  
+  /*read the file back*/
+  printf("\nFile content are being read now...\n",s);
+  fp=open("POEM.TXT","r");
+  if(fp==NULL){
+    puts("cannot open file"); exit(2);
+  }
+  
 
