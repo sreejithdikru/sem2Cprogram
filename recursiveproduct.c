@@ -12,3 +12,21 @@ int calculateProduct(int num1, int num2)
         return 0;
     }
 }
+
+int main()
+{
+    int num1 = 0;
+    int num2 = 0;
+    int product = 0;
+
+    printf("Enter Num1: ");
+    scanf("%d", &num1);
+
+    printf("Enter Num2: ");
+    scanf("%d", &num2);
+
+    product = calculateProduct(num1, num2);
+    printf("Product is: %d", product);
+
+    return 0;
+}
